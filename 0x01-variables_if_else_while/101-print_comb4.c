@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i = 0;
-	int j,k;
+	int j, k;
 	int count = 0;
 
 	for (i = 0; i <= 7; i++)
