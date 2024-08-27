@@ -11,7 +11,8 @@ char *cap_string(char *str)
 {
 	int j, i = 0;
 	int is_delimeter;
-	char chars[] = {' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}', '\t', '\n', '\0'};
+	char chars[] = {' ', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}',
+		'\t', '\n', '\0'};
 
 	if (str[i] >= 'a' && str[i] <= 'z')
 	{
